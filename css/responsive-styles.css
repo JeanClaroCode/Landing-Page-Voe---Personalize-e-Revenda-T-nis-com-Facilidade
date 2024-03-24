@@ -1,0 +1,208 @@
+@media (max-width:1920px) {
+    .section4-customer{
+        min-height: 0vh;
+    } 
+    .grid-container{
+        margin-bottom: 5rem;
+    }
+}
+@media (max-width: 1440px) {
+    .section4-customer{
+        min-height: 0vh;
+    }
+    .section3-layout{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section3-textcontent{
+        margin-left: 10rem;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section3-layout{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .section3-textcontent{
+        margin-left: 1rem;
+        
+    }
+
+
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr); 
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .grid-item {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        font-size: 1rem;
+        height: auto; 
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .section3-layout{
+        flex-direction: column;
+        text-align: center;
+    }
+       
+    .section3-title{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .section3-subtitle{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .cards{
+        margin-left: auto;
+        margin-right: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .advantage p{
+        font-size: 1.5rem;
+    }
+    .dollarsign{
+        width: 6.4rem;
+        height: 6.4rem;
+    }
+    
+    .section3-title{
+        font-size: 1rem;
+        margin-left: rem;
+    }
+    .section3-subtitle{
+        font-size: 1rem;
+    }
+    h3{
+        font-size: 2.5rem;
+    }
+    .buttontext{
+        font-size: 2rem; 
+    }
+
+    p{
+        font-size: 1rem;
+    }
+
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .grid-item {
+        margin-left: auto;
+        margin-right: auto;
+        justify-content: center;
+        font-size: 1rem;
+        height: auto; 
+    }
+    .warranty-section{
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
+        margin-bottom: 5rem;
+    }
+    .warranty-text{
+        justify-content: space-between;
+
+        height: auto;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    .warranty-text span{
+        
+        font-size: .9rem;
+        font-weight: normal;
+    }
+}
+@media (max-width:450px){
+
+    html{
+        font-size: 30%;
+    }
+    
+    grid-container {
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 1rem;
+        height: auto;
+        margin-bottom: auto;
+    
+    }
+    .section4-customer{
+        min-height: 0vh;
+    }
+    .grid-item {
+        justify-content: center;
+        font-size: 3rem;
+        max-width: 41rem;
+        height: auto; 
+    }
+}
+
+@media (max-width:425px){
+    .home{
+        min-height: 0vh;
+    }
+    .section3-warranty{
+        min-height: 0vh;
+    }
+}
+@media (max-width:375px){
+.home{
+    min-height: 0vh;
+}
+.section3-warranty{
+    min-height: 0vh;
+}
+}
+@media (max-width:320px){
+    .home{
+        min-height: 0vh;
+    }
+    .section3-warranty{
+        min-height: 0vh;
+    }
+    h3{
+        font-size: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    p{
+        font-size: 1.5rem;
+    }
+    .card2{
+        margin-left: auto;
+        margin-right: auto;
+        height: 65.19px;
+    }
+    .section4-title{
+        font-size: 3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .card1{
+        height: 61.9px;
+    }
+    .grid-item {
+        justify-content: center;
+        font-size: 2rem;
+        max-width: 30rem;
+        height: auto; 
+    }
+}
