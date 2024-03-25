@@ -161,7 +161,12 @@
         width: 100%;
         max-width: 41rem;
         height: auto;
-        margin-bottom: 120rem;
+        margin-bottom: 50rem;
+    }
+    .logo{
+        max-width: 100rem;
+        height: auto;
+        margin-bottom: 5rem;
     }
     .content p {
         font-size: 3rem;
