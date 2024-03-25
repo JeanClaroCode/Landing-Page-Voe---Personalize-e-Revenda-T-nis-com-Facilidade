@@ -63,7 +63,7 @@
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 865px) {
     .section3-layout{
         flex-direction: column;
         text-align: center;
@@ -90,11 +90,11 @@
     }
     
     .section3-title{
-        font-size: 1rem;
+        font-size: 2rem;
         margin-left: rem;
     }
     .section3-subtitle{
-        font-size: 1rem;
+        font-size: 2rem;
     }
     h3{
         font-size: 2.5rem;
@@ -120,7 +120,23 @@
         font-size: 1rem;
         height: auto; 
     }
+    .warranty1, .warranty2, .warranty3, .warranty4{
+        margin-right: 1rem;
+        max-width: 3.4rem;
+        height: auto;
+    }
+    .warranty2{
+        margin-right: 1.5rem;
+    }
+    .warranty-text{
+        justify-content:center ;
+        flex-direction: column;
+        align-items: center;
+    }
     .warranty-section{
+        width: 15rem;
+        display: flex;
+        flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
         align-items: center;
@@ -128,7 +144,7 @@
     }
     .warranty-text{
         justify-content: space-between;
-
+        align-items: center;
         height: auto;
         font-size: 1rem;
         font-weight: bold;
