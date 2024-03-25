@@ -91,12 +91,11 @@
     
     .section3-title{
         font-size: 2rem;
-     
+        margin-left: rem;
     }
     .section3-subtitle{
         font-size: 2rem;
     }
-    
     h3{
         font-size: 2.5rem;
     }
@@ -133,26 +132,26 @@
         justify-content:center ;
         flex-direction: column;
         align-items: center;
+        max-width: 16rem;
     }
     .warranty-section{
-        width: 15rem;
+        width: 25rem;
         display: flex;
         flex-wrap: wrap;
         margin-left: auto;
         margin-right: auto;
         align-items: center;
-        margin-bottom: 5rem;
     }
     .warranty-text{
         justify-content: space-between;
         align-items: center;
         height: auto;
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: bold;
     }
     .warranty-text span{
         
-        font-size: .9rem;
+        font-size: 1rem;
         font-weight: normal;
     }
 }
