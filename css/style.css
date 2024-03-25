@@ -263,6 +263,8 @@ span{
     display: flex;
     align-items: center;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
     flex-wrap: wrap;
     width: 100%;
     max-width: 49rem;
@@ -271,6 +273,7 @@ span{
 }
 
 .cardParalelo{
+    justify-content: space-between;
     display: flex;
     gap: 1rem;
     height: auto;
@@ -294,8 +297,6 @@ span{
 }
 
 .card1{
-    width: 100%;
-    max-width: 20rem;
     height: auto;
     border: 2px solid #FF1800;
     border-radius: 2.5rem;
@@ -303,8 +304,6 @@ span{
 }
 
 .card2{
-    width: 100%;
-    max-width: 20rem;
     height: auto;
     border: 2px solid #FF1800;
     border-radius: 2.5rem;
@@ -315,8 +314,6 @@ span{
     display: flex;
     align-items: center;
     justify-items: center;
-    width: 100%;
-    max-width: 51.7rem;
     height: auto;
     border: 2px solid #FF1800;
     border-radius: 1rem;
