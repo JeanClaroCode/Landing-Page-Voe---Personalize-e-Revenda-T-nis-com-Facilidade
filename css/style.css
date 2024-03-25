@@ -285,17 +285,11 @@ span{
 .title-card{
     color: #202020;
     font-weight: bold;
-   
 }
 
 .sub-card{
     color: #202020;
 }
-
-.card2 p{
-    padding-bottom: 2rem;
-}
-
 .card1{
     height: auto;
     border: 2px solid #FF1800;
@@ -429,6 +423,7 @@ span{
 }
 
 .footer .social_media{    
+    width: 100%;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
